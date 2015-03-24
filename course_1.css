@@ -1,0 +1,128 @@
+article#course{
+  max-width:600px;
+  padding:1em;
+  background:     url(http://subtlepatterns.com/patterns/crossword.png );
+  border-radius:1em;  
+ 
+}
+
+@media screen and (max-width:600px) {
+  nav {
+    width: 100%;
+  }
+  .title{
+  position: static !important;
+  margin:0;     
+    
+  }
+ 
+  .description{
+    position: static;
+    margin:0 !important;
+    
+    
+    
+  }
+
+
+
+
+}  
+
+
+nav {
+  border: 1px solid #f8b62c; 
+}
+.nav_btn {
+  float: left;
+  padding: 0.5em 2em;
+  box-sizing:border-box;
+  
+}
+
+#top{
+  
+  margin:1.5em;
+  text-align:center ; 
+}
+
+
+
+
+.header{
+  color: #263358;
+  font-size: 30px;
+  text-align:center;
+  font-family:Raleway:800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 900;
+  margin:1em;
+ 
+}
+
+#nccu{
+ 
+ text-align:center;
+  
+  
+}
+
+.course_box{
+ 
+  display:inline-block;
+ 
+  margin: 1.5em;
+  font-size: 15px;
+  background:
+  url()  
+  
+  
+}
+
+.contents{
+  font-size:10px;
+  font-family:effra;
+   
+}
+
+.section{
+  position:relative;
+}
+
+.title{
+  
+  position:absolute;
+  left: 2.5em;
+  width: 200px;
+  display:block;
+  color: #f8b62c;
+  font-size:1em;
+  font-weight:500;
+  margin-top: 2.5em;
+  
+  
+}
+
+.description{
+  margin-left: 200px;
+  color: #383838;
+  margin-top:2.5em;
+  
+  
+}
+
+.sep{
+  margin: 1.5em 5px;
+  width:100%;
+  
+}
+
+ul{
+  padding: 1.5em;
+  list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4621/treehouse-marker.png);
+  
+  
+}
+
+
