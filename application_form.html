@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+</head>
+<body>
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -13,27 +20,27 @@
     </p>
     <p>
       <label for="username">帳號</label>
-      <input type="text" name="username">
+      <input type="text" name="user" id="username">
     </p>  
     <p>
       <label for="psw">密碼</label>
-      <input type="password" name="psw">
+      <input type="password" name="psw" id="psw">
     </p>       
     <p>性別</p>
-    <input type="radio" name="sex" value="male" checked>Male
-    <br>
-    <input type="radio" name="sex" value="female">Female
     <p>
+    <label for="male">
+    <input type="radio" name="sex" id="male" value="male" checked>男性</label>
+    <br>
+    <label for="female">  
+    <input type="radio" name="sex" id="female" value="female" checked>女性</label>
+      </p>
+      
       <label for="email">信箱</label>
       <input type="email" name="e" id="email">    
     </p>
     <p>
       <label for="phone">電話</label>
       <input type="tel" name="nb" id="phone">    
-    </p>
-    <p>
-      <label for="email">信箱</label>
-      <input type="email" name="e" id="email">    
     </p>
     <p>
       <label for="birthday">生日</label>
@@ -44,23 +51,34 @@
       <input type="text" name="a" id="address">
     </p>
     <p>最高學歷</p>
-    <input type="radio" name="education" value="Doctor">博士
-    <input type="radio" name="education" value="Master">碩士
-    <input type="radio" name="education" value="Bachelor">學士
-    <input type="radio" name="education" value="Hight_school">高中
-    <input type="radio" name="education" value="Junior_Hight">國中
+    <label for="doctor">
+    <input type="radio" name="education" id="doctor" value="Doctor">博士</label>
+    <label for="master">
+    <input type="radio" name="education" id="master" value="Master">碩士</label>
+    <label for="bachelor">
+    <input type="radio" name="education" id="bachelor" value="Bachelor">學士</label>
+    <label for="high_school">
+    <input type="radio" name="education" id="high_school" value="High_school">高中</label>
+    <label for="junior_high">
+    <input type="radio" name="education" id="junior_high" value="junior_high">國中
     <p>交通工具</p>
-    <input type="checkbox" name="vehicle" value="Bike">騎腳踏車
+    <label for="bike">  
+    <input type="checkbox" name="vehicle" id="bike" value="Bike">騎腳踏車</label>
     <br>
-    <input type="checkbox" name="vehicle" value="Car">我有車
+    <label for="car">  
+    <input type="checkbox" name="vehicle" id="car" value="Car">我有車</label>
     <br>
-    <input type="checkbox" name="vehicle" value="Public">大眾交通工具
+    <label for="public">  
+    <input type="checkbox" name="vehicle" id="public" value="Public">大眾交通工具</label>
     <br>
-    <input type="checkbox" name="vehicle" value="Foot">雙腳萬能    
+    <label for="foot"> 
+    <input type="checkbox" name="vehicle" id="foot" value="Foot">雙腳萬能    
     <p>選一個喜歡的顏色</p>      
     <input type="color" name="favcolor">
-    <p>個人網站</p>
-    <input type="url" name="homepage">
+    <p>
+    <label for="website">個人網站</label>
+    <input type="url" name="homepage" id="website">
+    </p>
     
     <p>謝謝您的填答！</p>
     <br>
@@ -71,3 +89,5 @@
   </body>  
 
 </html>  
+</body>
+</html>
