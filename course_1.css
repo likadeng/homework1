@@ -120,9 +120,70 @@ nav {
 
 ul{
   padding: 1.5em;
-  list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4621/treehouse-marker.png);
-  
-  
+  list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4621/treehouse-marker.png);  
 }
 
+ol {
+    list-style-type: none;
+    list-style-type: decimal !ie; /*IE 7- hack*/
+     
+    margin: 0;
+    margin-left: 3em;
+    padding: 0;
+     
+    counter-reset: li-counter;
+}
+ol> li{
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 0.5em;
+    min-height: 3em;
+    border-left: 1px solid #CCCCCC;
+}
+ol> li:before {
+    position: absolute;
+    top: 0;
+    left: -1em;
+    width: 0.8em;
+     
+    font-size: 1.5em;
+    line-height: 1;
+    font-weight: bold;
+    text-align: right;
+    color: #464646;
+ 
+    content: counter(li-counter);
+    counter-increment: li-counter;
+}
+
+#application {
+
+font-size: 1em;
+
+color: #f8b62c;
+text-decoration: none;
+
+}
+
+
+
+#application:hover{
+
+font-size: 1.5em;
+
+color: #f8b62c;
+
+text-decoration: underline;
+
+} 
+
+#application:visited{
+
+font-size: 1.5em;
+
+color: #263358;
+
+text-decoration: underline;
+
+} 
 
