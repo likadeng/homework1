@@ -1,12 +1,14 @@
+
+
 article#course{
   max-width:1280px;
   padding:1em;
-  background:     url(http://subtlepatterns.com/patterns/crossword.png );
+  background: url(http://goo.gl/jPDEui );
   border-radius:1em;  
  
 }
 
-@media screen and (max-width:600px) {
+<!--@media screen and (max-width:600px) {
   nav {
     width: 100%;
   }
@@ -18,21 +20,19 @@ article#course{
  
   .description{
     position: static;
-    margin:0 !important;
-    
-    
-    
+    margin:0 !important;       
   }
 
-
-
-
 }  
+-->
 
 
-nav {
+
+
+/*nav {
   border: 1px solid #f8b62c; 
-}
+}*/
+
 .nav_btn {
   float: left;
   padding: 0.5em 2em;
@@ -64,19 +64,12 @@ nav {
 #nccu{
  
  text-align:center;
-  
-  
 }
+ 
 
-.course_box{
- 
-  display:inline-block;
- 
+.row{
   margin: 1.5em;
   font-size: 15px;
-  background:
-  url()  
-  
   
 }
 
@@ -91,25 +84,23 @@ nav {
 }
 
 .title{
-  
-  position:absolute;
-  left: 2.5em;
-  width: 200px;
-  display:block;
   color: #f8b62c;
   font-size:1em;
   font-weight:500;
-  margin-top: 2.5em;
-  
-  
 }
 
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+  color: #ffffff;
+  background-color: #f8b62c;
+  border-color: #f8b62c;
+}
+
+
 .description{
-  margin-left: 200px;
   color: #383838;
-  margin-top:2.5em;
-  
-  
 }
 
 .sep{
@@ -134,6 +125,7 @@ ol {
     counter-reset: li-counter;
 }
 ol> li{
+    color:#383838;
     position: relative;
     margin-bottom: 20px;
     padding-left: 0.5em;
@@ -160,9 +152,9 @@ ol> li:before {
 
 font-size: 1em;
 
-color: #f8b62c;
+color: #ffffff;
 text-decoration: none;
-border: 2px solid #f8b62c;  
+border: 2px solid #ffffff;  
 
 }
 
@@ -172,7 +164,7 @@ border: 2px solid #f8b62c;
 
 font-size: 1.5em;
 
-color: #f8b62c;
+color: #ffffff;
 
 text-decoration: underline;
 
@@ -182,9 +174,9 @@ text-decoration: underline;
 
 font-size: 1.5em;
 
-color: #263358;
+color: #ffffff;
 
 text-decoration: underline;
 
-} 
+}
 
