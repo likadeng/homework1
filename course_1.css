@@ -148,35 +148,8 @@ ol> li:before {
     counter-increment: li-counter;
 }
 
-#application {
-
-font-size: 1em;
-
-color: #ffffff;
-text-decoration: none;
-border: 2px solid #ffffff;  
-
-}
 
 
 
-#application:hover{
 
-font-size: 1.5em;
-
-color: #ffffff;
-
-text-decoration: underline;
-
-} 
-
-#application:visited{
-
-font-size: 1.5em;
-
-color: #ffffff;
-
-text-decoration: underline;
-
-}
 
