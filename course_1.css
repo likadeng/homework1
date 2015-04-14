@@ -67,27 +67,6 @@ article#course{
 
 
 
-.btn-primary:hover{
-  color: #ffffff;
-  background-color: #f8b62c;
-  border-color: #f8b62c; 
-  
-}
-
-.btn-primary.active {
-  color: #ffffff;
-  background-color: #f8b62c;
-  border-color: #f8b62c;
-}
-
-
-.btn-primary.active {
-  color: #ffffff;
-  background-color: #f8b62c;
-  border-color: #f8b62c;
-}
-
-
 .description{
   color: #383838;
 }
@@ -136,6 +115,39 @@ ol> li:before {
     content: counter(li-counter);
     counter-increment: li-counter;
 }
+.btn-2d{
+  border-radius:5px;
+  
+}
+.btn-2{
+  background:#263358;
+  color:#fff;
+  box-shadow:0 6px #171e34;
+  transition:none;  
+}
+.btn{
+  border:none;
+  cursor:pointer;
+  font-size:20px;
+  padding:25px 80px ;
+  display:inline-block;
+  margin:15px 30px ;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  font-weight:700px;
+  outline:none;
+  position:relative;
+  
+}
+
+.btn:hover,
+.btn:visited{
+  background:#f8b62c;
+  box-shadow:0 6px #e9a008;
+  
+}
+
+
 
 
 
