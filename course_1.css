@@ -8,6 +8,30 @@ article#course{
  
 }
 
+<!--@media screen and (max-width:600px) {
+  nav {
+    width: 100%;
+  }
+  .title{
+  position: static !important;
+  margin:0;     
+    
+  }
+ 
+  .description{
+    position: static;
+    margin:0 !important;       
+  }
+
+}  
+-->
+
+
+
+
+/*nav {
+  border: 1px solid #f8b62c; 
+}*/
 
 .nav_btn {
   float: left;
@@ -21,6 +45,8 @@ article#course{
   margin:1.5em;
   text-align:center ; 
 }
+
+
 
 
 .header{
